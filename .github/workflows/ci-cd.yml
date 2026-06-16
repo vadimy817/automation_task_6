@@ -46,5 +46,5 @@ jobs:
           context: .
           push: true
           tags: |
-            ghcr.io/${{ github.repository }}/cicd-demo-app:latest
-            ghcr.io/${{ github.repository }}/cicd-demo-app:${{ github.sha }}
+            ghcr.io/vadimy817/automation_task_6/cicd-demo-app:latest
+            ghcr.io/vadimy817/automation_task_6/cicd-demo-app:${{ github.sha }}
